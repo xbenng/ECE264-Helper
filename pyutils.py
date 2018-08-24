@@ -47,3 +47,11 @@ def checkForEditsOutsideIfDef(newFile, originalFile):
   # Help from:
   # https://codereview.stackexchange.com/questions/30912/compare-file-with-ignore-some-line-last-line
   # https://stackoverflow.com/questions/15343743/copying-from-one-text-file-to-another-using-python
+
+# https://chrisalbon.com/python/data_wrangling/break_list_into_chunks_of_equal_size/
+# Create a function called "chunks" with two arguments, l and n:
+def chunks(l, n):
+    # For item i in a range that is a length of l,
+    for i in range(0, len(l), n):
+        # Create an index range for l of n items:
+        yield l[i:i+n]
