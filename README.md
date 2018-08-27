@@ -10,3 +10,6 @@ Published test cases, as well as (TBD) an automated version of the checklist for
 
 ## Contributing
 To make a contribution, create a branch that states your tasks (e.g. `create-valgrind-check`). Make your commits, then submit a Pull request back to master.
+
+## Forking 
+To make a contribution you could also fork the repository. Clone that repository to your terminal and send a pull request.
